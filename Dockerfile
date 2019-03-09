@@ -8,6 +8,6 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 EXPOSE 50
 
-ENV NAME World
+ENV NAME Pankaj
 
 CMD ["python", "app.py"]
