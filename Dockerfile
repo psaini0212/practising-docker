@@ -6,7 +6,7 @@ COPY . /app
 
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
-EXPOSE 50
+EXPOSE 80
 
 ENV NAME Pankaj
 
