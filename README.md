@@ -19,4 +19,19 @@ docker hub and will build a new image with tag latest.
 
 Check this 
 
+
 https://cloud.docker.com/repository/docker/psaini0212/practising-docker/builds
+
+#### Docker Compose
+
+In  a docker compose file - you can define how your containers will behave in production.
+
+```
+docker init swarm
+docker stack deploy -c docker-compose.yml getstarted_lab
+docker stack ls
+docker service ls
+docker service ps getstarted_lab_web
+docker stack rm getstarted_lab
+```
+
